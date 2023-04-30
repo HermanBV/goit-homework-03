@@ -73,6 +73,7 @@ body {
 }
 
 .logo {
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -92,6 +93,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
 }
 
 .logo:hover,
