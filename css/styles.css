@@ -57,8 +57,20 @@ body {
 .box-header {
   border-bottom: 1px solid #e7e9fc;
 }
+.menu:not(:last-child) {
+  margin-right: 40px;
+}
+.contacts-item:not(:last-child) {
+  margin-right: 40px;
+}
+.contact-menu {
+  display: flex;
+  margin-left: 332px;
+  padding: 0;
+}
 .nav-box {
   display: flex;
+  align-items: center;
 }
 .container {
   width: 1158px;
@@ -68,10 +80,17 @@ body {
 }
 
 .nav {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
+.site-nav {
+  display: flex;
+  padding: 0;
+}
+.main {
+  margin-right: 40px;
+}
 .logo {
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
@@ -133,14 +152,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 120px;
-  height: 600px;
-  width: 1440px;
 }
 
 .hero-title {
   box-sizing: content-box;
   color: var(--primary-white-color);
-  padding: 188px 472px 48px 472px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
