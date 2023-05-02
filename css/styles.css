@@ -185,6 +185,7 @@ body {
   min-width: 169px;
   height: 56px;
   border: none;
+  display: block;
 }
 
 .btn:hover,
@@ -369,6 +370,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   max-width: 264px;
+  margin-right: 0;
 }
 /* --------------------portfolio footer-------------------- */
 .portfolio-ftr {
