@@ -334,16 +334,6 @@ img {
 /* -------------------Portfolio------------------ */
 /* -------------------header--------------------- */
 
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--accent-color);
-}
-
 .clr-logo {
   color: var(--title-text-color);
 }
@@ -381,7 +371,16 @@ img {
   color: #404bbf;
 }
 /* -------------------main----------------- */
-
+.portfolio-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.portfolio-list-selection {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
 .button-selection {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -391,20 +390,39 @@ img {
   color: var(--accent-color);
   background-color: var(--button-back-color);
   cursor: pointer;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  padding: 12px 24px;
 }
 
 .button-selection:hover,
 .button-selection:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border-color: transparent;
 }
 
+.portfolio-list {
+  display: flex;
+  gap: 48px 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  width: calc((100% - 2 * 24px) / 3);
+}
+.portfolio-card-thumb {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  margin-bottom: 8px;
 }
 
 .paragraf {
