@@ -284,7 +284,7 @@ img {
   gap: 24px;
 }
 .team-item-thumb {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 .team-item {
   background-color: var(--primary-white-color);
