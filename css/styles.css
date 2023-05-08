@@ -163,11 +163,20 @@ img {
 
 /* ----------------------HERO----------------------- */
 .hero {
+  background: rgba(46, 47, 66, 0.7);
   background-color: var(--title-text-color);
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office\ .jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .hero-title {
@@ -209,6 +218,26 @@ img {
 .about {
   background-color: var(--primary-white-color);
   padding: 120px 0;
+}
+
+.about-img {
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+}
+
+.about-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.about-img-astronaut {
+  width: 64px;
+  height: 64px;
 }
 
 .about-list {
@@ -285,6 +314,8 @@ img {
 }
 .team-item-thumb {
   padding: 32px 16px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-item {
   background-color: var(--primary-white-color);
@@ -301,7 +332,19 @@ img {
   color: var(--title-text-color);
   margin-bottom: 8px;
 }
-
+/* ---------------Customers-------------- */
+.customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.customers-title {
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
 /* ---------------footer--------------- */
 .footer {
   background-color: var(--title-text-color);
